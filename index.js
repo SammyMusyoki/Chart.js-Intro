@@ -59,18 +59,7 @@ const ctx = document.getElementById('myChart');
   ];
 
   new Chart(ctx, {
-    type: 'line',
-    // options: {
-    //   animation: false,
-    //   plugins: {
-    //     legend: {
-    //       display: false
-    //     },
-    //     tooltip: {
-    //       enabled: false
-    //     }
-    //   }
-    // },
+    type: 'doughnut',
     data: {
       labels: data.map((row) => row.year),
       datasets: [
